@@ -1,17 +1,23 @@
-/*
+@import "./variables.css";
+
 body{
-    background-color: beige;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1660665477552-e0a28998165f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+
 }
 
+/*
 h1{
     color: cornflowerblue;
-    transition:color .5s ease-in-out;
 }
 
 .clicked{
-    color: tomato;
+   color: tomato;
 }
 */
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
 
 .hidden{
     display: none;
