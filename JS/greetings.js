@@ -200,6 +200,7 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 
+greeting.style.color="white"
 
 const HIDDEN_CLASSNAME = "hidden";
 //일반적으로 string만 포함된 변수는 대문자로 표기하고 string을 저장하고 싶을때 사용

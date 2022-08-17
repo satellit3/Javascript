@@ -1,52 +1,52 @@
 const quotes = [
 {
-    quote : "명언1" ,
-    author : "저자",
+    quote : " Live always in the best company when you read." ,
+    author : "Sydney Smith",
 }
 ,
 {
-    quote : "명언2" ,
-    author : "저자",
+    quote : "A book that is shut is but a block." ,
+    author : "Thomas Fuller",
 }
 ,
 {
-    quote : "명언3" ,
-    author : "저자",
+    quote : "This book fills a much-needed gap." ,
+    author : "Moses Hadas",
 }
 ,
 {
-    quote : "명언4" ,
-    author : "저자",
+    quote : " My personal hobbies are reading, listening to music, and silence." ,
+    author : "Edith Sitwell",
 }
 ,
 {
-    quote : "명언5" ,
-    author : "저자",
+    quote : " Reading is sometimes an ingenious device for avoiding thought.",
+    author : "Sir Arthur Helps",
 }
 ,
 {
-    quote : "명언6" ,
-    author : "저자",
+    quote : "A room without books is like a body without a soul." ,
+    author : "Cicero",
 }
 ,
 {
-    quote : "명언7" ,
-    author : "저자",
+    quote : "The multitude of books is making us ignorant." ,
+    author : "Voltaire",
 }
 ,
 {
-    quote : "명언8" ,
-    author : "저자",
+    quote : " I have read your book and much like it." ,
+    author : "Moses Hadas",
 }
 ,
 {
-    quote : "명언9" ,
-    author : "저자",
+    quote : "Wear the old coat and buy the new book." ,
+    author : "Austin Phelps",
 }
 ,
 {
-    quote : "명언10" ,
-    author : "저자",
+    quote : "Woe be to him that reads but one book." ,
+    author : "George Herbert",
 }
 ,
 ]
@@ -54,6 +54,9 @@ const quotes = [
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+quote.style.color = "white"
+author.style.color = "white"
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;

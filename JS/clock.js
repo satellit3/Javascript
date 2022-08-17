@@ -1,5 +1,8 @@
 const clock = document.querySelector("h2#clock");
 
+clock.style.color = "white"
+clock.style.fontWeight = "bold"
+
 function getClock() {
     const date = new Date();
     const hours = String(date.getHours()).padStart(2, "0");
